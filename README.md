@@ -1,154 +1,188 @@
 # 🍕 Pizza Sales Performance Analytics  
-### End-to-End SQL + Power BI Business Intelligence Project  
 
-An advanced data analytics project that transforms raw transactional pizza sales data into strategic business insights using **PostgreSQL (SQL)** and **Power BI**.
+### End-to-End   Excel + SQL + Power BI Business Intelligence Project  
 
-This project demonstrates strong SQL querying, KPI development, trend analysis, performance benchmarking, and executive-level dashboard design.
+An advanced data analytics project that transforms raw transactional pizza sales data into structured revenue intelligence and operational insights using **Excel, PostgreSQL (SQL), and Power BI**.
 
----
+This project demonstrates:
 
-## 📌 Executive Summary  
-
-Analyzed 1 year of transactional sales data to identify revenue drivers, product performance trends, seasonal demand patterns, and operational improvement opportunities.
-
-Built complete analytics workflow:
-- Data modeling using SQL
-- KPI computation using business logic
-- Performance ranking (Top/Bottom products)
-- Interactive BI dashboard for stakeholders
-
----
-
-## ⚙️ Tech Stack  
-
-### 🗄️ SQL (PostgreSQL)
-- Schema design & table creation  
-- Aggregations (SUM, COUNT, AVG)  
-- Subqueries & nested calculations  
-- Date transformation using `TO_CHAR()`  
+- Data cleaning & validation (Excel)  
+- SQL-based KPI engineering  
 - Revenue contribution analysis  
-- Product performance ranking  
-
-### 📊 Power BI
-- Interactive KPI dashboard  
-- Drill-down analysis  
-- Dynamic slicers  
-- Trend visualization  
-- Category & size contribution analysis  
+- Product performance benchmarking  
+- Trend & seasonality analysis  
+- Executive-level dashboard reporting  
 
 ---
 
-## 🗂️ Dataset  
+## 📌 Business Context  
 
-Structured transactional dataset containing:
+A pizza business required structured visibility into:
 
-- 21,000+ Orders  
-- 49,000+ Pizzas Sold  
-- Multiple Categories & Sizes  
-- Order-level revenue & time data  
-- 12 Months of business activity  
+- Revenue drivers  
+- Product performance  
+- Seasonal demand patterns  
+- Size & category contribution  
+- Operational improvement opportunities  
+
+The objective was to build a reporting system that supports revenue optimization, inventory planning, and performance benchmarking.
 
 ---
 
-## 🧮 Business Questions Solved Using SQL  
+## 📊 Executive Summary  
 
-### KPI Analysis
+Analyzed **1 year of transactional sales data** covering:
+
+- 📦 **21,350 Orders**
+- 🍕 **49,574 Pizzas Sold**
+- 💰 **$817.86K Total Revenue**
+- 📈 **$38.31 Average Order Value**
+- 📊 **2.32 Average Pizzas per Order**
+
+### Core Insight  
+
+Revenue concentration exists within specific pizza categories, sizes, and top-performing products — creating clear optimization opportunities for menu strategy and inventory planning.
+
+---
+
+## 🛠 End-to-End Analytical Workflow  
+
+### 1️⃣ Data Preparation (Excel)
+
+- Cleaned and validated raw transactional dataset  
+- Standardized date & revenue columns  
+- Verified order-level calculations  
+- Structured data for SQL import  
+
+Ensured dataset accuracy before KPI modeling.
+
+---
+
+### 2️⃣ KPI Engineering & Analysis (PostgreSQL)
+
+Developed business metrics using:
+
+- SUM, COUNT, AVG aggregations  
+- GROUP BY segmentation  
+- Subqueries & ranking logic  
+- Date transformation using `TO_CHAR()`  
+- Revenue contribution percentage calculations  
+
+Built metrics for:
+
 - Total Revenue  
 - Average Order Value  
 - Total Orders  
-- Total Pizzas Sold  
-- Average Pizzas per Order  
-
-### Trend Analysis
-- Daily Order Trends  
-- Monthly Order Trends  
-
-### Contribution Analysis
-- % Revenue by Category  
-- % Revenue by Size  
-- Sales Volume by Category  
-
-### Performance Benchmarking
-- Top 5 & Bottom 5 Pizzas by:
-  - Revenue  
-  - Quantity Sold  
-  - Total Orders  
+- Total Quantity Sold  
+- Category & Size % Contribution  
+- Top & Bottom Product Ranking  
 
 ---
 
-## 📊 Dashboard Preview  
+### 3️⃣ Executive Dashboard Reporting (Power BI)
 
-### 🏠 Home Dashboard  
+Designed a 2-page interactive dashboard:
+
+- **Home Dashboard** – KPI overview & trend analysis  
+- **Best/Worst Sellers Dashboard** – Product performance benchmarking  
+
+Built with slicers, KPI cards, and drill-down visuals for stakeholder decision-making.
+
+---
+
+## 📈 Revenue Intelligence & Insights  
+
+### 💰 Revenue Performance  
+
+- Total Revenue: **$817.86K**  
+- Average Order Value: **$38.31**  
+- Average 2.32 pizzas per order  
+- Revenue gap between highest & lowest performing pizza exceeds **250%**
+
+Indicates strong product performance disparity.
+
+---
+
+### 📅 Demand & Seasonality  
+
+- Highest Order Day: **Friday**
+- Weekend orders are **18–22% higher** than weekday average  
+- Peak Sales Months: **July & January**
+- October demand is approximately **15% lower than peak month**
+
+Sales show clear seasonal and weekly concentration patterns.
+
+---
+
+### 🍕 Category Contribution  
+
+- Classic: **26.9% of total revenue (highest)**
+- Supreme: **25.4%**
+- Chicken: **23.9%**
+- Veggie: **23.6%**
+
+Revenue distribution is balanced but slightly led by Classic category.
+
+---
+
+### 📦 Size Contribution  
+
+- Large Size: **45.9% of total revenue**
+- Medium: **30.4%**
+- Regular: **21.7%**
+- XL & XXL combined: **<2%**
+
+Large pizzas dominate revenue share.
+
+---
+
+### 🏆 Product Concentration  
+
+- Top 5 pizzas generate **22–25% of total revenue**
+- Bottom 5 pizzas contribute **<8% of total revenue**
+
+Strong concentration suggests menu optimization opportunity.
+
+---
+
+## 💼 Strategic Recommendations  
+
+- Promote top 5 high-performing pizzas  
+- Consider removing or redesigning bottom 5 underperformers  
+- Increase staffing & inventory for weekends (18–22% higher demand)  
+- Focus marketing efforts during peak months (July & January)  
+- Reduce XL/XXL inventory due to low revenue share (<2%)  
+
+---
+
+## 🧠 Skills Demonstrated  
+
+- Excel Data Cleaning & Preparation  
+- Advanced SQL Query Development  
+- KPI & Revenue Contribution Modeling  
+- Product Ranking & Benchmark Analysis  
+- Time-Based Trend Analysis  
+- Executive Dashboard Development  
+- Business-Oriented Data Interpretation  
+
+---
+
+## 🚀 Project Outcome  
+
+Delivered a complete analytics pipeline from raw sales data to executive-level revenue intelligence reporting.
+
+This project demonstrates the ability to:
+
+- Quantify $817.86K in revenue performance  
+- Identify 20%+ revenue concentration patterns  
+- Translate sales data into strategic operational recommendations  
+
+---
+
+# 📊 Dashboard Preview  
+
+## 🏠 Home Dashboard  
 ![Home Dashboard](https://github.com/ankesh4283/-Pizza-Sales-Analysis/blob/main/Screenshot%202026-02-13%20033136.png)
 
-### ⭐ Best / Worst Sellers Dashboard  
+## ⭐ Best / Worst Sellers Dashboard  
 ![Best Worst Dashboard](https://github.com/ankesh4283/-Pizza-Sales-Analysis/blob/main/Screenshot%202026-02-13%20033159.png)
-
----
-
-# 📈 Key Business Insights (Quantified)
-
-### 💰 Revenue Performance
-- Total Revenue Generated: **$817.86K**
-- Average Order Value: **$38.31**
-- Average Pizzas per Order: **2.32**
-
----
-
-### 📅 Demand Trends
-- Highest Order Day: **Friday**
-- Weekend orders are approximately **18–22% higher** than weekday averages.
-- Peak Sales Months: **July & January**
-- Lowest Demand observed in **October (~15% lower than peak month)**
-
----
-
-### 🍕 Product Category Contribution
-- Classic Category contributes **26.9% of total revenue (highest share)**
-- Supreme contributes **25.4%**
-- Chicken contributes **23.9%**
-- Veggie contributes **23.6%**
-
-Revenue is evenly distributed, but Classic slightly leads the market.
-
----
-
-### 📦 Size Performance
-- Large Size contributes **45.9% of total revenue**
-- Medium contributes **30.4%**
-- Regular contributes **21.7%**
-- XL & XXL together contribute less than **2%**
-
-Large size pizzas dominate revenue contribution.
-
----
-
-### 🏆 Product Performance
-- Top 5 pizzas generate approximately **22–25% of total revenue**
-- Bottom 5 pizzas contribute less than **8% of total revenue**
-- Revenue gap between highest and lowest performing pizza exceeds **250%**
-
-This indicates strong product concentration risk and optimization opportunity.
-
----
-
-### 📊 Operational Insight
-- Total Orders: **21,350**
-- Total Pizzas Sold: **49,574**
-- Peak ordering occurs during evening hours.
-- High concentration of sales on weekends suggests staffing & inventory optimization opportunities.
-
----
-
-## 🎯 Business Impact  
-
-This analysis enables:
-
-- Menu optimization by removing underperforming products  
-- Revenue growth through focus on high-margin pizzas  
-- Inventory planning based on size preference trends  
-- Staffing optimization based on peak demand patterns  
-- Data-driven marketing during high-performing months  
-
----
-
